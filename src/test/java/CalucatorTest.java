@@ -25,4 +25,9 @@ public class CalucatorTest {
     void divideNum(){
         Assertions.assertEquals(2,Calculator.div(24,12));
     }
+
+    @Test
+    void subtractNumFail(){
+        Assertions.assertEquals(10,Calculator.sub(2,2));
+    }
 }
